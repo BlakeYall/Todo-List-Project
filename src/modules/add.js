@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import Post from './postScore.js';
 
 export const array = [];
