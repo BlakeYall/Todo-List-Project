@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export default class Post {
   static post = async (data = {}) => {
     const apiKey = '0Z92XESxHIscbuYy2R5g';

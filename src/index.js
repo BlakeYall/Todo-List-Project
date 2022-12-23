@@ -1,4 +1,4 @@
-import '../css/index.css';
+/* eslint-disable linebreak-style */
 import { display } from './modules/score.js';
 import Refresh from './modules/interaction.js';
 import { clickBtn } from './modules/add.js';

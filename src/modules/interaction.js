@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { array } from './add.js';
 import { displayScore } from './score.js';
 
