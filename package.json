@@ -4,8 +4,8 @@
   "description": "A Todo-List created using Webpack.",
   "private": true,
   "scripts": {
-    "start": "webpack --config webpack.config.js",
-    "build": "webpack"
+    "start": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,19 @@
   },
   "homepage": "https://github.com/BlakeYall/Todo-List-Project#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
     "hint": "^7.1.3",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",

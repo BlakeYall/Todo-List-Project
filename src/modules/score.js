@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export const getScore = async (callback = null) => {
   const apiKey = '0Z92XESxHIscbuYy2R5g';
   const baseURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
